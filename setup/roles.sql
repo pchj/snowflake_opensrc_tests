@@ -4,7 +4,7 @@ begin;
     /* Create variables for user, password, role, warehouse, database, and schema (needs to be uppercase for objects) */
     set role_name = 'OPENSRC';
     set user_name = 'DATA_USER';
-    set warehouse_name = 'DATALING';
+    set warehouse_name = 'DATA_DW';
 
     /* Must be at least 8 characters long, contain at least 1 digit, 1 uppercase letter and 1 lowercase letter */
     set user_password = '';               /* Replace with a strong password */
